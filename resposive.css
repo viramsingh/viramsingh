@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+    nav .menu {
+      display: block;
+    }
+    
+    nav .nav-links {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      flex-direction: column;
+      background-color: #E57373;
+      padding: 10px;
+      z-index: 1;
+    }
+    
+    nav .nav-links li {
+      margin: 10px 0;
+    }
+    
+    nav .nav-links li a {
+      padding: 5px;
+    }
+    
+    nav .nav-links li a:hover {
+      background-color: #E57373;
+      color: #fff;
+      border-radius: 5px;
+    }
+    
+    input:checked ~ .nav-links {
+      display: flex;
+    }
+  }
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .cta,
+    .res {
+        margin: 0 auto 20px;
+        width: 150px;
+    }
+
+    .portfolio-container {
+        width: 90vw;
+    }
+
+    .projects-items .projects-cards img {
+        width: 45vw;
+    }
+
+    #about img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #about h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #about p {
+        margin-right: 0;
+    }
+
+    .skills-section {
+        padding: 40px 0;
+    }
+
+    .skills-section h1 {
+        padding-right: 0;
+    }
+
+    .skills-section p {
+        padding-right: 0;
+    }
+
+    .skill-container {
+        grid-template-columns: auto;
+        justify-items: center;
+        gap: 1rem;
+    }
+
+    .skill {
+        width: 70vw;
+    }
+}
